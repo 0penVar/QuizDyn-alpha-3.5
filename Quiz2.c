@@ -2,7 +2,6 @@
 #include<stdlib.h>
 
 int main(int argc, char* argv[])
-do
 {
   int a;
   int refaire = 0, score = 8;
