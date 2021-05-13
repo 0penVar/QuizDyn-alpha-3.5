@@ -11,8 +11,6 @@ int main(int argc, char* argv[])
     unsigned int recharger = 0, total = 0;
     unsigned int r1 = 0, r2 = 0, r3 = 0, r4 = 0;
     int user[50] = {0};
-    
-    unsigned int recharger2 = 0, total
 
     do
     {
@@ -45,11 +43,11 @@ int main(int argc, char* argv[])
             printf("C'est un score excellent !!!");
                 if(fichier != NULL)
                 {
-                    printf("Lancement de mise a jour de la base de donnnee ...");
+                    T_ENTREE()
                     fichier = fopen("BaseDeDonnee.txt", "a+");
                     fprintf(fichier, "Votre score de votre partie est de %d sur 200", total);
                     fclose(fichier);
-                    printf("");
+                    T_FINALE
                 }
             break;
 
@@ -59,8 +57,11 @@ int main(int argc, char* argv[])
             printf("C'est un bon score !");
                 if(fichier != NULL)
                 {
+                    T_ENTREE()
                     fichier = fopen("BaseDeDonnee.txt", "a+");
-                    
+                    fprintf(fichier, "Votre score de votre partie est de %d sur 200", total);
+                    fclose(fichier);
+                    T_FINALE() 
                 }
             break;
 
