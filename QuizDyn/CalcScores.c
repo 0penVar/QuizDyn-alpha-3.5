@@ -34,18 +34,28 @@ int main(int argc, char* argv[])
           scanf("%d", &r4);
 
         total = r1 + r2 + r3 + r4;
+        
+        if(total < 200)
+        {
+            printf("");
+        }
+        else if(total > 160)
+        {
+            
+        }
 
         switch(total)
         {
         case 200:
                 N2()
-            printf("Le score total de %s est de %d sur 200\n", user, total);
+            printf("Le score total de %s est de %d sur 200", user, total);
+                N1()
             printf("C'est un score excellent !!!");
                 if(fichier != NULL)
                 {
                     T_ENTREE()
                     fichier = fopen("BaseDeDonnee.txt", "a+");
-                    fprintf(fichier, "Votre score de votre partie est de %d sur 200", total);
+                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
                     fclose(fichier);
                     T_FINALE
                 }
@@ -53,21 +63,30 @@ int main(int argc, char* argv[])
 
         case 160:
                 N2()
-            printf("Le score total de %s est de %d sur 200\n", user, total);
+            printf("Le score total de %s est de %d sur 200", user, total);
+                N1()
             printf("C'est un bon score !");
                 if(fichier != NULL)
                 {
                     T_ENTREE()
                     fichier = fopen("BaseDeDonnee.txt", "a+");
-                    fprintf(fichier, "Votre score de votre partie est de %d sur 200", total);
+                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
                     fclose(fichier);
                     T_FINALE() 
                 }
             break;
 
         case 120:
-            printf("\n\nLe score total de %s est de %d sur 200\n", user, total);
+                N2()
+            printf("Le score total de %s est de %d sur 200", user, total);
+                N1()
             printf("Ce score est acceptable.");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    fichier = fopen("BaseDeDonnee.txt", "a+");
+                    fprintf(fichier, "Le score de ");    
+                }
         }
 
         printf("\n\nSi vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
