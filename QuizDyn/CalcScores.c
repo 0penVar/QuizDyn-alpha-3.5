@@ -85,7 +85,22 @@ int main(int argc, char* argv[])
                 {
                     T_ENTREE()
                     fichier = fopen("BaseDeDonnee.txt", "a+");
-                    fprintf(fichier, "Le score de ");    
+                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
+                    fclose(fichier);
+                    T_FINALE()
+                }
+            break;
+                
+        case 80:
+                N2()
+                    printf("Le score total de %s est de %d sur 200", user, total);
+                N1()
+                    printf("Ce score est mauvais.");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                        fichier = fopen("BaseDeDonnee.txt", "a+");
+                        
                 }
         }
 
