@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "QuizCalcul.h"
+#include "QuizFunct.h"
+#include "QuizCalc.h"
 #include "QuizDyn1.h"
 
 int main(int argc, char* argv[])
@@ -100,8 +101,11 @@ int main(int argc, char* argv[])
                 {
                     T_ENTREE()
                         fichier = fopen("BaseDeDonnee.txt", "a+");
-                        
+                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
+                    fclose(fichier);
+                    T_FINALE()
                 }
+                break;
         }
 
         printf("\n\nSi vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
