@@ -4,9 +4,13 @@
 
 int main(int argc, char* argv[])
 {
-    int a = 0 
+    int a = 0, refaire = 0, score = 50;
     
     do
+    {
+        
+        
+    }while()
     
     return 0;
 }
