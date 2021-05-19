@@ -12,9 +12,16 @@ int main(int argc, char* argv[])
     unsigned int recharger = 0, total = 0;
     unsigned int r1 = 0, r2 = 0, r3 = 0, r4 = 0;
     int user[50] = {0};
+    
+    int a = 0, b = 0, c = 0
 
     do
     {
+        do
+        {
+            
+        }while
+        
         PRENOM()
         scanf("%s", user);
 
@@ -33,79 +40,84 @@ int main(int argc, char* argv[])
         N2()
         printf("%s, veuillez rentrer votre score de la 4eme question sur 50 : ", user);
           scanf("%d", &r4);
+        
+        CLS()
+        
+        fichier = fopen()
 
         total = r1 + r2 + r3 + r4;
-        
-        if(total < 200)
-        {
-            printf("");
-        }
-        else if(total > 160)
-        {
-            
-        }
 
         switch(total)
         {
-        case 200:
+        case 100:
                 N2()
-            printf("Le score total de %s est de %d sur 200", user, total);
+            printf("Le score total de %s est de %d sur 100", user, total);
                 N1()
             printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
                 if(fichier != NULL)
                 {
                     T_ENTREE()
-                    fichier = fopen("BaseDeDonnee.txt", "a+");
-                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
                     T_FINALE
                 }
             break;
 
-        case 160:
+        case 80:
                 N2()
-            printf("Le score total de %s est de %d sur 200", user, total);
+            printf("Le score total de %s est de %d sur 100", user, total);
                 N1()
             printf("C'est un bon score !");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
                 if(fichier != NULL)
                 {
                     T_ENTREE()
-                    fichier = fopen("BaseDeDonnee.txt", "a+");
-                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
+                    CLS()
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
                     T_FINALE() 
                 }
             break;
 
-        case 120:
+        case 60:
                 N2()
-            printf("Le score total de %s est de %d sur 200", user, total);
+            printf("Le score total de %s est de %d sur 100", user, total);
                 N1()
             printf("Ce score est acceptable.");
+                CLS()
+                fichier = fopen("BaseDeDonnee.txt", "a+");
                 if(fichier != NULL)
                 {
                     T_ENTREE()
-                    fichier = fopen("BaseDeDonnee.txt", "a+");
-                    fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
+                    CLS()
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
                     T_FINALE()
                 }
             break;
                 
-        case 80:
+        case 40:
                 N2()
-                    printf("Le score total de %s est de %d sur 200", user, total);
+                    printf("Le score total de %s est de %d sur 100", user, total);
                 N1()
                     printf("Ce score est mauvais.");
+                CLS()
+                fichier = fopen("BaseDeDonnee.txt", "a+");
                 if(fichier != NULL)
                 {
                     T_ENTREE()
-                        fichier = fopen("BaseDeDonnee.txt", "a+");
+                        CLS()
                     fprintf(fichier, "Le score de votre partie est de %d sur 200", total);
                     fclose(fichier);
                     T_FINALE()
                 }
                 break;
+                
+            case 20:
+                N2()
+                    printf("")
         }
 
         printf("\n\nSi vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
