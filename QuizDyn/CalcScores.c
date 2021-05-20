@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "QuizFunct.h"
+#include "Quiz_Terminal.h"
 #include "QuizCalc.h"
 #include "QuizDyn1.h"
 
@@ -13,17 +13,30 @@ int main(int argc, char* argv[])
     unsigned int r1 = 0, r2 = 0, r3 = 0, r4 = 0;
     int user[50] = {0};
     
-    int a = 0, b = 0, c = 0
+    int a = 0, b = 0, c = 0, d = 0, e = 0;
+    int a2 = 0, b2 = 0, c2 = 0, d2 = 0, e2 = 0;
 
     do
     {
-        do
-        {
-            
-        }while
         
         PRENOM()
         scanf("%s", user);
+        
+        do
+        {
+            N2()
+            LIGNE()
+                N1()
+                NQ1()
+                N1()
+                LIGNE()
+                N2()
+                
+                
+            
+        }while
+            
+            CLS()
 
         N2()
         printf("%s, veuillez rentrer votre score de la 1ere question sur 50 : ", user);
@@ -43,7 +56,7 @@ int main(int argc, char* argv[])
         
         CLS()
         
-        fichier = fopen()
+        fichier = fopen("BaseDeDonnee.txt", "w");
 
         total = r1 + r2 + r3 + r4;
 
@@ -117,13 +130,23 @@ int main(int argc, char* argv[])
                 
             case 20:
                 N2()
-                    printf("")
+                    printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+                    printf("Ce score est tres mauvais.");
+                CLS()
+                    fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE
+                        CLS()
+                        fprintf(fichier, "Le score de votre partie est de %d sur 100", total)
+                }
         }
 
-        printf("\n\nSi vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
-        printf("\nVeuillez ecrire votre choix : ");
+            REFAIRE()
+            printf("\nVeuillez ecrire votre choix : ");
           scanf("%d", &recharger);
 
     }while (recharger);
-    return 0;
+    END_TASK()
 }
