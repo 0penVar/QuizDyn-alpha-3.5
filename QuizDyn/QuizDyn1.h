@@ -17,6 +17,7 @@
               printf("\nreponse 8 : mars"); \
               printf("\nreponse 9 : jupiter"); \
               printf("\nreponse 10 : saturne");
+              //la reponse est 2
 
 #define NQ2() printf("Quel est la plus grosse planete du systeme solaire ?"); \
               printf("\nreponse 1 : mercure"); \
@@ -29,10 +30,11 @@
               printf("\nreponse 8 : Sirius B"); \
               printf("\nreponse 9 : terre"); \
               printf("\nreponse 10 : mars");
+              //la reponse est
 
 #define NQ3() printf("Quel est la plus petite planete du systeme solaire ?"); \
-              printf("\nreponse 1 : "); \
-              printf("\nreponse 2 : "); \
+              printf("\nreponse 1 : terre"); \
+              printf("\nreponse 2 : venus"); \
               printf("\nreponse 3 : "); \
               printf("\nreponse 4 : "); \
               printf("\nreponse 5 : "); \
