@@ -460,6 +460,10 @@ int main(int argc, char* argv[])
                         CLS()
                         fprintf(fichier, "Le score de votre partie est de %d sur 100", total)
                 }
+                
+            case 10:
+                N2()
+                    printf("Le score total de %s est de %d sur 100", user, total);
         }
 
             REFAIRE()
