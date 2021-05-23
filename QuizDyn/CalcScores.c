@@ -33,8 +33,23 @@ int main(int argc, char* argv[])
                 N2()
                 
                 
-            
+                
         }while
+            
+            CLS()
+            
+            do
+            {
+                N2()
+                    LIGNE()
+                    N1()
+                    NQ2()
+                    N1()
+                    LIGNE()
+                    N2()
+                    
+                    
+            }while
             
             CLS()
 
@@ -63,6 +78,310 @@ int main(int argc, char* argv[])
         switch(total)
         {
         case 100:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 99:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 98:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 97:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 96:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 95:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 94:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 93:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 92:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 91:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 90:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 89:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 88:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 87:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 86:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 85:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 84:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 83:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 82:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("C'est un score excellent !!!");
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    system("CLS");
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE
+                }
+            break;
+                
+                case 81:
                 N2()
             printf("Le score total de %s est de %d sur 100", user, total);
                 N1()
