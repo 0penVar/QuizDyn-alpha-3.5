@@ -131,7 +131,7 @@
 
 #define PRENOM() printf("Quel est votre prenom : ");
 
-#define REFAIRE() printf("Voulez-vous refaire un calcul ?\nSi oui faite 1, si vous voulez sortir de l'application faite 0.");
+#define REFAIRE() printf("Voulez-vous relancer l'application pour rejouer ?\nSi oui faite 1, si vous voulez quittez l'application faite 0.");
 
 #define T_FINALE() printf("Traitement de la base de donnee termine.");
 #define T_ENTREE() printf("Lancement de mise a jour de la base de donnee...");
