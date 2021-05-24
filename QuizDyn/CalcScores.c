@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
                 
                 
                 
-        }while
+        }while();
             
             CLS()
             
@@ -49,9 +49,17 @@ int main(int argc, char* argv[])
                     N2()
                     
                     
-            }while
+            }while();
             
             CLS()
+                
+                do
+                {
+                    N2()
+                    
+                }while();
+        
+        CLS()
 
         N2()
         printf("%s, veuillez rentrer votre score de la 1ere question sur 50 : ", user);
