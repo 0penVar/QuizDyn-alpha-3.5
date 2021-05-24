@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Quiz_Terminal.h"
-#include "QuizCalc.h"
-#include "QuizDyn1.h"
+#include "QuizCalcScores.h"
 
 int main(int argc, char* argv[])
 {
@@ -56,8 +55,15 @@ int main(int argc, char* argv[])
                 do
                 {
                     N2()
+                        LIGNE()
+                        N1()
+                        NQ3()
+                        N1()
+                        LIGNE()
+                        N2()
+                        
                     
-                }while();
+                }while(c != 8);
         
         CLS()
 
