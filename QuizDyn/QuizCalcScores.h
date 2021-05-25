@@ -1,9 +1,10 @@
-#ifndef
+#ifndef QUIZCALCSCORES_H_INCLUDED
+#define QUIZCALCSCORES_H_INCLUDED
 
 
-#define LIGNE() printf(---------------------------------------------------------------------------------);
+#define LIGNE() printf("---------------------------------------------------------------------------------");
 
-#define N() printf("\n");
+#define N1() printf("\n");
 #define N2() printf("\n\n");
 
 #define NQ1() printf("Quel est la planete la plus eloignee du soleil dans le systeme solaire ?"); \
@@ -46,16 +47,17 @@
               //la reponse est 8
 
 #define NQ4() printf("Comment appelons les planetes qui se trouvent dans notre systeme solaire interne ?"); \
-              printf("\nreponse 1 : "); \
-              printf("\nreponse 2 : "); \
-              printf("\nreponse 3 : "); \
-              printf("\nreponse 4 : "); \
-              printf("\nreponse 5 : "); \
-              printf("\nreponse 6 : "); \
-              printf("\nreponse 7 : "); \
-              printf("\nreponse 8 : "); \
-              printf("\nreponse 9 : "); \
-              printf("\nreponse 10 : ");
+              printf("\nreponse 1 : Super-Terres"); \
+              printf("\nreponse 2 : planetes chaudes"); \
+              printf("\nreponse 3 : planetes froides"); \
+              printf("\nreponse 4 : Geantes de glace"); \
+              printf("\nreponse 5 : Geantes de gaz"); \
+              printf("\nreponse 6 : Neptunes chaudes"); \
+              printf("\nreponse 7 : Jupiter chauds"); \
+              printf("\nreponse 8 : asteroides"); \
+              printf("\nreponse 9 : planetes telluriques"); \
+              printf("\nreponse 10 : planetes naine");
+              //la reponse est 9
 
 #define NQ5() printf("Quel est le nom de l'etoile la plus proche du soleil ?"); \
               printf("reponse 1 : "); \
