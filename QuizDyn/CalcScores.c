@@ -30,10 +30,9 @@ int main(int argc, char* argv[])
                 N1()
                 LIGNE()
                 N2()
+                scanf("%d", &a);
                 
-                
-                
-        }while();
+        }while(a != 2);
             
             CLS()
             
@@ -46,9 +45,9 @@ int main(int argc, char* argv[])
                     N1()
                     LIGNE()
                     N2()
+                    scanf("%d", &b);
                     
-                    
-            }while();
+            }while(b != 6);
             
             CLS()
                 
@@ -66,28 +65,69 @@ int main(int argc, char* argv[])
                 }while(c != 8);
         
         CLS()
+            
+            do
+            {
+                N2()
+                    LIGNE()
+                    N1()
+                    NQ4()
+                    N1()
+                    LIGNE()
+                    N2()
+                
+            }while(d != 9);
+                
+                CLS()
+                
+                do{}while();
+        
+        CLS()
+            
+            do{}while();
+        
+        CLS()
+            
+            do{}while();
+        
+        CLS()
+            
+            printf("Le resultat du score de la question numero 1 est de %d", a_score);
+            printf("Le resultat du score de la question numero 2 est de %d", b_score);
+            printf("Le resultat du score de la question numero 3 est de %d", c_score);
+            printf("Le resultat du score de la question numero 4 est de %d", d_score);
+        printf("Le resultat du score de la question numero 5 est de %d", e_score);
+        printf("Le resultat du score de la question numero 6 est de %d", a2_score);
+        printf("Le resultat du score de la question numero 7 est de %d", b2_score);
+        printf("Le resultat du score de la question numero 8");
+        printf("Le resultat du score de la question numero 9");
+        printf("Le resultat du score de la question numero 10");
 
         N2()
-        printf("%s, veuillez rentrer votre score de la 1ere question sur 50 : ", user);
+        printf("%s, veuillez rentrer votre score de la 1ere question sur 10 : ", user);
           scanf("%d", &r1);
 
         N2()
-        printf("%s, veuillez rentrer votre score de la 2eme question sur 50 : ", user);
+        printf("%s, veuillez rentrer votre score de la 2eme question sur 10 : ", user);
           scanf("%d", &r2);
 
         N2()
-        printf("%s, veuillez rentrer votre score de la 3eme question sur 50: ", user);
+        printf("%s, veuillez rentrer votre score de la 3eme question sur 10: ", user);
           scanf("%d", &r3);
 
         N2()
-        printf("%s, veuillez rentrer votre score de la 4eme question sur 50 : ", user);
+        printf("%s, veuillez rentrer votre score de la 4eme question sur 10 : ", user);
           scanf("%d", &r4);
+        
+        N2()
+            printf("%s, veuillez rentrer votre score de la 5eme question sur 10 : ", user);
+        scanf("%d", &r5)
         
         CLS()
         
         fichier = fopen("BaseDeDonnee.txt", "w");
 
-        total = r1 + r2 + r3 + r4;
+        total = r1 + r2 + r3 + r4 + r5 + r6 + r7 + r8 + r9 + r10;
 
         switch(total)
         {
@@ -103,7 +143,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -119,7 +159,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -135,7 +175,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -167,7 +207,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -183,7 +223,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -199,7 +239,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -215,7 +255,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -231,7 +271,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -247,7 +287,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -263,7 +303,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -279,7 +319,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -295,7 +335,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -311,7 +351,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -327,7 +367,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -343,7 +383,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -359,7 +399,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -375,7 +415,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -391,7 +431,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
                 
@@ -407,7 +447,7 @@ int main(int argc, char* argv[])
                     system("CLS");
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
-                    T_FINALE
+                    T_FINALE()
                 }
             break;
 
@@ -424,6 +464,74 @@ int main(int argc, char* argv[])
                     fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                     fclose(fichier);
                     T_FINALE() 
+                }
+            break;
+                
+            case 79:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("Ce score est acceptable.");
+                CLS()
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    CLS()
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE()
+                }
+            break;
+                
+                            case 78:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("Ce score est acceptable.");
+                CLS()
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    CLS()
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE()
+                }
+            break;
+                
+                            case 77:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("Ce score est acceptable.");
+                CLS()
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    CLS()
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE()
+                }
+            break;
+                
+                            case 76:
+                N2()
+            printf("Le score total de %s est de %d sur 100", user, total);
+                N1()
+            printf("Ce score est acceptable.");
+                CLS()
+                fichier = fopen("BaseDeDonnee.txt", "a+");
+                if(fichier != NULL)
+                {
+                    T_ENTREE()
+                    CLS()
+                    fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
+                    fclose(fichier);
+                    T_FINALE()
                 }
             break;
 
@@ -472,12 +580,18 @@ int main(int argc, char* argv[])
                 {
                     T_ENTREE
                         CLS()
-                        fprintf(fichier, "Le score de votre partie est de %d sur 100", total)
+                        fprintf(fichier, "Le score de votre partie est de %d sur 100", total);
                 }
+                break;
                 
             case 10:
                 N2()
                     printf("Le score total de %s est de %d sur 100", user, total);
+                break;
+                
+            default:
+                printf("ERREUR ! VEUILLEZ RECOMMENCER ...");
+                break;
         }
 
             REFAIRE()
