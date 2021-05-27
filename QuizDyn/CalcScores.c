@@ -8,12 +8,14 @@ int main(int argc, char* argv[])
 
     FILE* fichier = NULL;
     
-    unsigned int recharger = 0, total = 0;
+    unsigned int recharger = 0, total = 0, passer = 0;
     unsigned int r1 = 0, r2 = 0, r3 = 0, r4 = 0;
     int user[50] = {0};
     
     int a = 0, b = 0, c = 0, d = 0, e = 0;
     int a2 = 0, b2 = 0, c2 = 0, d2 = 0, e2 = 0;
+    
+    
 
     do
     {
@@ -45,7 +47,35 @@ int main(int argc, char* argv[])
                     N1()
                     LIGNE()
                     N2()
+                    WRITE_HERE()
                     scanf("%d", &b);
+                if(b != 6)
+                {
+                    N2()
+                    LIGNE()
+                        N1()
+                    T_BA()
+                        N1()
+                        LIGNE()
+                        N2()
+                }
+                if else(b = 6)
+                {
+                    N2()
+                        LIGNE()
+                        N1()
+                        T_GA()
+                        N1()
+                        LIGNE()
+                        N2()
+                        LIGNE()
+                        N1()
+                        WRITE_HERE()
+                        scanf("%d", &passer);
+                        N1()
+                        LIGNE()
+                        N2()
+                }
                     
             }while(b != 6);
             
@@ -60,7 +90,7 @@ int main(int argc, char* argv[])
                         N1()
                         LIGNE()
                         N2()
-                        
+                        scanf("%d", &c);
                     
                 }while(c != 8);
         
@@ -99,9 +129,9 @@ int main(int argc, char* argv[])
         printf("Le resultat du score de la question numero 5 est de %d", e_score);
         printf("Le resultat du score de la question numero 6 est de %d", a2_score);
         printf("Le resultat du score de la question numero 7 est de %d", b2_score);
-        printf("Le resultat du score de la question numero 8");
-        printf("Le resultat du score de la question numero 9");
-        printf("Le resultat du score de la question numero 10");
+        printf("Le resultat du score de la question numero 8 est de %d", c2_score);
+        printf("Le resultat du score de la question numero 9 est de %d", d2_score);
+        printf("Le resultat du score de la question numero 10 est de %d", e2_score);
 
         N2()
         printf("%s, veuillez rentrer votre score de la 1ere question sur 10 : ", user);
