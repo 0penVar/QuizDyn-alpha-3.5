@@ -91,6 +91,33 @@ int main(int argc, char* argv[])
                         LIGNE()
                         N2()
                         scanf("%d", &c);
+                    if(c != 8)
+                    {
+                    N2()
+                    LIGNE()
+                        N1()
+                    T_BA()
+                        N1()
+                        LIGNE()
+                        N2()
+                    }
+                    if else(c = 8)
+                    {
+                        N2()
+                        LIGNE()
+                        N1()
+                        T_GA()
+                        N1()
+                        LIGNE()
+                        N2()
+                        LIGNE()
+                        N1()
+                        WRITE_HERE()
+                        scanf("%d", &passer);
+                        N1()
+                        LIGNE()
+                        N2()
+                    }
                     
                 }while(c != 8);
         
