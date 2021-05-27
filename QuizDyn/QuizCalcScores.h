@@ -60,28 +60,28 @@
               //la reponse est 9
 
 #define NQ5() printf("Quel est le nom de l'etoile la plus proche du soleil ?"); \
-              printf("reponse 1 : "); \
-              printf("reponse 2 : "); \
-              printf("reponse 3 : "); \
-              printf("reponse 4 : "); \
-              printf("reponse 5 : "); \
-              printf("reponse 6 : "); \
-              printf("reponse 7 : "); \
-              printf("reponse 8 : "); \
-              printf("reponse 9 : "); \
-              printf("reponse 10 : ");
+              printf("\nreponse 1 : "); \
+              printf("\nreponse 2 : "); \
+              printf("\nreponse 3 : "); \
+              printf("\nreponse 4 : "); \
+              printf("\nreponse 5 : "); \
+              printf("\nreponse 6 : "); \
+              printf("\nreponse 7 : "); \
+              printf("\nreponse 8 : "); \
+              printf("\nreponse 9 : "); \
+              printf("\nreponse 10 : ");
 
 #define NQ6() printf("Quel autre nom donnent-ont au virus informatique celebre qui se nomme le virus tchernobyl ?"); \
-              printf("reponse 1 : "); \
-              printf("reponse 2 : "); \
-              printf("reponse 3 : "); \
-              printf("reponse 4 : "); \
-              printf("reponse 5 : "); \
-              printf("reponse 6 : "); \
-              printf("reponse 7 : "); \
-              printf("reponse 8 : "); \
-              printf("reponse 9 : "); \
-              printf("reponse 10 : ");
+              printf("\nreponse 1 : "); \
+              printf("\nreponse 2 : "); \
+              printf("\nreponse 3 : "); \
+              printf("\nreponse 4 : "); \
+              printf("\nreponse 5 : "); \
+              printf("\nreponse 6 : "); \
+              printf("\nreponse 7 : "); \
+              printf("\nreponse 8 : "); \
+              printf("\nreponse 9 : "); \
+              printf("\nreponse 10 : ");
 
 #define NQ7() printf("Quel est la définition exacte d'un ver informatique ?"); \
               printf("reponse 1 : "); \
@@ -137,6 +137,11 @@
 
 #define T_FINALE() printf("Traitement de la base de donnee termine.");
 #define T_ENTREE() printf("Lancement de mise a jour de la base de donnee...");
+
+#define T_GA() printf("Bonne Reponse !");
+               
+#define T_BA() printf("Mauvaise Reponse !"); \
+               printf("\nCette fois-ci, essayez de trouver la bonne reponse");
 
 
 #endif
