@@ -137,8 +137,6 @@
 
 #define T_FINALE() printf("Traitement de la base de donnee termine.");
 #define T_ENTREE() printf("Lancement de mise a jour de la base de donnee...");
-
-#define T_GA() printf("Bonne Reponse !");
                
 #define T_BA() printf("Mauvaise Reponse !"); \
                printf("\nCette fois-ci, essayez de trouver la bonne reponse");
