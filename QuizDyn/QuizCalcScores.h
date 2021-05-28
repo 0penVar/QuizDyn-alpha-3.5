@@ -60,23 +60,24 @@
               //la reponse est 9
 
 #define NQ5() printf("Quel est le nom de l'etoile la plus proche du soleil ?"); \
-              printf("\nreponse 1 : "); \
-              printf("\nreponse 2 : "); \
-              printf("\nreponse 3 : "); \
-              printf("\nreponse 4 : "); \
-              printf("\nreponse 5 : "); \
-              printf("\nreponse 6 : "); \
-              printf("\nreponse 7 : "); \
-              printf("\nreponse 8 : "); \
-              printf("\nreponse 9 : "); \
-              printf("\nreponse 10 : ");
+              printf("\nreponse 1 : Sirius A"); \
+              printf("\nreponse 2 : Sirius B"); \
+              printf("\nreponse 3 : Proxima Centauri"); \
+              printf("\nreponse 4 : Alpha Centauri"); \
+              printf("\nreponse 5 : Delta Centauri"); \
+              printf("\nreponse 6 : Ross 128"); \
+              printf("\nreponse 7 : Sagittarius A*"); \
+              printf("\nreponse 8 : Andromede"); \
+              printf("\nreponse 9 : 51 Pegasi"); \
+              printf("\nreponse 10 : etoile de Barnard");
+              //la réponse est 3
 
 #define NQ6() printf("Quel autre nom donnent-ont au virus informatique celebre qui se nomme le virus tchernobyl ?"); \
-              printf("\nreponse 1 : "); \
-              printf("\nreponse 2 : "); \
-              printf("\nreponse 3 : "); \
-              printf("\nreponse 4 : "); \
-              printf("\nreponse 5 : "); \
+              printf("\nreponse 1 : WinNuclear"); \
+              printf("\nreponse 2 : SoBig.F"); \
+              printf("\nreponse 3 : Mydoom.A"); \
+              printf("\nreponse 4 : CIH"); \
+              printf("\nreponse 5 : MSblaster"); \
               printf("\nreponse 6 : "); \
               printf("\nreponse 7 : "); \
               printf("\nreponse 8 : "); \
