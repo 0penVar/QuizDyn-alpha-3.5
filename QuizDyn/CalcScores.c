@@ -203,8 +203,41 @@ int main(int argc, char* argv[])
                 
                 do
                 {
+                    N2()
+                        LIGNE()
+                        N1()
+                        NQ5()
+                        N1()
+                        LIGNE()
+                        N2()
+                        WRITE_HERE()
+                        scanf("%d", &e);
                     
-                }while(e != );
+                    if(e != 3)
+                    {
+                    N2()
+                    LIGNE()
+                        N1()
+                    T_BA()
+                        N1()
+                        LIGNE()
+                        N2()
+                        e_score -= 1;
+                    }
+                    if else(e = 3)
+                    {
+                        N2()
+                        MessageBox(NULL, TEXT("\t-------------------------\t\n\t| Bonne Réponse ! |\t\n\t-------------------------\t"), TEXT("QuizDyn.exe"), MB_OK);
+                        LIGNE()
+                        N1()
+                        PRESS_ANY_KEY()
+                        scanf("%d", &passer);
+                        N1()
+                        LIGNE()
+                        N2()
+                    }
+                    
+                }while(e != 3);
         
         CLS()
             
